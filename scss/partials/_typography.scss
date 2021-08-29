@@ -1,0 +1,13 @@
+body {
+  font-family: getFont(primary);
+}
+
+.navbar {
+  font-family: getFont(secondary);
+}
+
+h1 {
+  color: $text-primary;
+  margin-top: 70px; // fixed height value on nav. Used to replicate the non-fixed nav in XD design.
+  font-size: 34px;
+}

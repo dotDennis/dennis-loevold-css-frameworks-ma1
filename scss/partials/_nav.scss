@@ -1,0 +1,24 @@
+.navbar-light {
+  .navbar-brand {
+    font-size: 36px;
+    color: #262626;
+  }
+  .navbar-toggler {
+    border: none;
+    &:focus {
+      box-shadow: none;
+    }
+  }
+  .navbar-nav {
+    a.nav-link {
+      color: $gray;
+      font-size: 18px;
+      &:hover {
+        color: $black;
+      }
+      &.active {
+        color: $primary;
+      }
+    }
+  }
+}

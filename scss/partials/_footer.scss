@@ -1,0 +1,19 @@
+footer {
+  font-size: 12px;
+  flex-shrink: 0;
+  background: $white;
+  color: $gray;
+  min-height: 44px;
+
+  @include media-breakpoint-up(md) {
+    background: $light;
+  }
+
+  a {
+    color: $gray;
+    text-decoration: none;
+    &:hover {
+      color: $black;
+    }
+  }
+}

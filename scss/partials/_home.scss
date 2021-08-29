@@ -1,0 +1,23 @@
+.container--home {
+  @extend .container;
+  padding-bottom: 10rem;
+}
+
+.container__tile {
+  box-shadow: 0 6px 12px rgba($black, 0.07);
+  border-radius: 15px;
+  &--light {
+    @extend .container__tile;
+    background: $light;
+  }
+  &--pink {
+    @extend .container__tile;
+    background: $primary;
+    @include container-border($white);
+  }
+  &--white {
+    @extend .container__tile;
+    background: $white;
+    @include container-border($primary);
+  }
+}
